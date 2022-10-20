@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        min-height:110vh;
+        width:100%;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/banner.jpg");
+        background-position:center;
+        background-size:cover;
+        position:relative;
+}
+/* Menu  */
+.btn-language{
+    padding: 6px 8px;
+    background-color:rgba(0,0,0,0.6);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.btn-bottom{
+  border: 1px solid rgb(57, 55, 55);
+  color: whitesmoke;
+}
+.btn-signin{
+    padding: 6px 20px;
+    background-color: #de0611;
+    color: white;
+    border-radius: 3px;
+}
+
+/* End Menu  */
+.banner-text{
+  color: white;
+  padding-top: 60px;
+
+  font-size: 1.75rem;
+}
+.heading-text{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.para-text{
+  font-weight:500;
+  font-size: 26px;
+}
+.para-text1{
+  font-weight:400;
+  font-size: 20px;
+}
+.btn-textt > button{
+  margin: auto;
+  background-color: #de0611;
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  display: none;
+}
+
+/* 
+.search-icon1{
+    margin-left: -10px;
+} */
+
+/* End Header  */
+/* Search  */
+form.example input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 30%;
+  padding: 8px;
+  background: #de0611;
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  border: 1px solid black;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* End Search  */
+/* Main  */
+.bg_dark{
+  background-color: black;
+}
+.hr-line{
+  background-color:#f1f1f1; 
+  height:7px;
+   margin-top: 0px;
+}
+/* Section1 */
+/* .ott-tv{
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+.ott-tv-media{
+  
+  margin-top: 90px;
+  
+}
+.ott-tv{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.ott-tv-heading{
+  color: white;
+  font-size: 48px;
+  /* margin-top: 110px; */
+ 
+}
+.ott-tv-para{
+  color: white;
+  font-size: 26px;
+  text-align: justify;
+  padding-right: 50px;
+  /* text-align: justify; */
+  line-height: 32px;
+}
+.tv-image{
+  position: relative;
+  background-repeat: no-repeat;
+}
+.tv-image > img{
+  position: relative;
+  height: 56vh;
+  z-index: 1;
+  width: 435px;
+  background-repeat: no-repeat;
+}
+.tv-image > video{
+  position: absolute;
+  top: 66px;
+  left: 0px;
+  height: 175px;
+  width: 455px;
+  z-index: 99;
+  background-repeat: no-repeat;
+}
+
+/* End Section1 */
+/* Section2 */
+.ott-tv-mobile-res{
+  display: none;
+}
+.download-div{
+  position: absolute;
+  top: 200px;
+  left: 68px;
+  z-index: 10;
+  width:330px;
+   height:90px;
+    background-color:black;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.download-div-heading{
+  font-size: 18px;
+}
+.download-div-para{
+  font-size: 16px;
+  color: #004be4;
+}
+.stranger-div{
+  line-height: 5px;
+  padding-top: 20px;
+}
+/* End section2 */
+/* Section3 */
+.tv-video{
+  position: relative;
+  background-repeat: no-repeat;
+ 
+}
+.tv-video > img{
+  position: relative;
+  height: 56vh;
+  z-index: 1;
+  width: 435px;
+  background-repeat: no-repeat;
+}
+.tv-video > video{
+  position: absolute;
+  top: 3px;
+  left: 100px;
+  height: 220px;
+  width: 260px;
+  z-index: 99;
+  background-repeat: no-repeat;
+}
+/* End Section3 */
+/* Frequently asked sectionn */
+.accor-heading{
+  background-color: #303030;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+.accor-para{
+  background-color: #303030;
+  color: white;
+  font-size: 24px;
+}
+.accor-heading:focus{
+  background-color: #303030;
+  color: white;
+  border: 2px solid black;
+}
+.accordion-item{
+  background-color: black;
+  border: 0px;
+}
+.fask-text{
+  font-size: 50px;
+}
+/*End Frequently asked sectionn */
+/* Footerr */
+.footer-text{
+  font-size: 14px;
+  cursor: pointer;
+}
+/* End footer  */
+@media only screen and (max-width: 768px) {
+  .search-icon{
+    margin:auto;
+    
+}
+.search-icon1{
+  margin:auto;
+  
+}
+.heading-text{
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.banner-text{
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 1.75rem;
+}
+.para-text{
+  font-weight:500;
+  font-size: 22px;
+  color: white;
+}
+.para-text1{
+  font-weight:400;
+  font-size: 17px;
+  color: white;
+}
+
+
+.ott-tv-heading{
+  text-align: center;
+  padding-top: 0px;
+}
+.ott-tv{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  
+}
+.ott-tv-media{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.ott-tv-para{
+  text-align: center;
+ 
+  font-size: 20px;
+  color: white;
+}
+.ott-tv-mobile-res{
+  display: block;
+}
+.ott-tv-media-res{
+  display: none;
+}
+.tv-video > video{
+  position: absolute;
+  top: 3px;
+  left: 140px;
+  height: 220px;
+  width: 260px;
+  z-index: 99;
+  background-repeat: no-repeat;
+}
+.tv-image > video{
+  position: absolute;
+  top: 66px;
+  left: 40px;
+  height: 175px;
+  width: 455px;
+  z-index: 99;
+  background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 1030px) {
+  .search-input{
+    width: 100%;
+    margin-left: 60px;
+  }
+  .btn-textt-desc{
+    display: none;
+  }
+  .btn-textt > button{
+    display: block;
+    margin-top: 30px;
+  }
+  
+  .ott-tv-para{
+   
+   
+    font-size: 20px;
+    color: white;
+  }
+  .tv-image{
+    padding-top: 0px;
+    
+  }
+  
+  
+}
+@media only screen and (min-width:474px) and (max-width: 768px) {
+  .download-div{
+    position: absolute;
+    top: 200px;
+    left: 96px;
+    z-index: 10;
+    width:330px;
+     height:90px;
+      background-color:black;
+      border: 2px solid gray;
+      border-radius: 10px;
+  }
+}
+/* End Main  */
